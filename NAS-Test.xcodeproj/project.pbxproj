@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C78293A1DD8441700B45AD3 /* NetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7829391DD8441700B45AD3 /* NetData.swift */; };
+		4C78293C1DD860A900B45AD3 /* Call.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C78293B1DD860A900B45AD3 /* Call.png */; };
+		4CB65CC41DD64955006A66C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CC31DD64955006A66C7 /* AppDelegate.swift */; };
+		4CB65CC61DD64955006A66C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CC51DD64955006A66C7 /* ViewController.swift */; };
+		4CB65CC91DD64955006A66C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB65CC71DD64955006A66C7 /* Main.storyboard */; };
+		4CB65CCB1DD64955006A66C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB65CCA1DD64955006A66C7 /* Assets.xcassets */; };
+		4CB65CCE1DD64955006A66C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB65CCC1DD64955006A66C7 /* LaunchScreen.storyboard */; };
+		4CB65CE11DD6498C006A66C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB65CDA1DD6498C006A66C7 /* Images.xcassets */; };
+		4CB65CE21DD6498C006A66C7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB65CDB1DD6498C006A66C7 /* Info.plist */; };
+		4CB65CE31DD6498C006A66C7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CDC1DD6498C006A66C7 /* Location.swift */; };
+		4CB65CE41DD6498C006A66C7 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CDE1DD6498C006A66C7 /* LocationPickerViewController.swift */; };
+		4CB65CE51DD6498C006A66C7 /* LocationSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CDF1DD6498C006A66C7 /* LocationSearchResultsViewController.swift */; };
+		4CB65CE61DD6498C006A66C7 /* SearchHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CE01DD6498C006A66C7 /* SearchHistoryManager.swift */; };
+		4CB65D0C1DD649CE006A66C7 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CEA1DD649CE006A66C7 /* IQNSArray+Sort.m */; };
+		4CB65D0D1DD649CE006A66C7 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CEC1DD649CE006A66C7 /* IQUIScrollView+Additions.m */; };
+		4CB65D0E1DD649CE006A66C7 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CEE1DD649CE006A66C7 /* IQUITextFieldView+Additions.m */; };
+		4CB65D0F1DD649CE006A66C7 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CF01DD649CE006A66C7 /* IQUIView+Hierarchy.m */; };
+		4CB65D101DD649CE006A66C7 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CF21DD649CE006A66C7 /* IQUIViewController+Additions.m */; };
+		4CB65D111DD649CE006A66C7 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CF41DD649CE006A66C7 /* IQUIWindow+Hierarchy.m */; };
+		4CB65D121DD649CE006A66C7 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CF91DD649CE006A66C7 /* IQKeyboardManager.m */; };
+		4CB65D131DD649CE006A66C7 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CFB1DD649CE006A66C7 /* IQKeyboardReturnKeyHandler.m */; };
+		4CB65D141DD649CE006A66C7 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65CFE1DD649CE006A66C7 /* IQTextView.m */; };
+		4CB65D151DD649CE006A66C7 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65D011DD649CE006A66C7 /* IQBarButtonItem.m */; };
+		4CB65D161DD649CE006A66C7 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65D031DD649CE006A66C7 /* IQPreviousNextView.m */; };
+		4CB65D171DD649CE006A66C7 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65D051DD649CE006A66C7 /* IQTitleBarButtonItem.m */; };
+		4CB65D181DD649CE006A66C7 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65D071DD649CE006A66C7 /* IQToolbar.m */; };
+		4CB65D191DD649CE006A66C7 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65D091DD649CE006A66C7 /* IQUIView+IQKeyboardToolbar.m */; };
+		4CB65D1A1DD649CE006A66C7 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CB65D0B1DD649CE006A66C7 /* IQKeyboardManager.bundle */; };
+		4CB65D1E1DD64A07006A66C7 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65D1B1DD64A07006A66C7 /* HoshiTextField.swift */; };
+		4CB65D1F1DD64A07006A66C7 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65D1D1DD64A07006A66C7 /* TextFieldsEffects.swift */; };
+		4CB65D231DD6597B006A66C7 /* DPBasicLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65D201DD6597B006A66C7 /* DPBasicLoading.swift */; };
+		4CB65D241DD6597B006A66C7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65D221DD6597B006A66C7 /* MBProgressHUD.m */; };
+		E70E94EA79B3ACBCB3791B3F /* Pods_NAS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7028DBCD8079A7A1C8436851 /* Pods_NAS_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C00A6C31DD83A47009BD1A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C7829391DD8441700B45AD3 /* NetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetData.swift; sourceTree = "<group>"; };
+		4C78293B1DD860A900B45AD3 /* Call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Call.png; sourceTree = "<group>"; };
+		4CB65CC01DD64955006A66C7 /* NAS-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NAS-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB65CC31DD64955006A66C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CB65CC51DD64955006A66C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CB65CC81DD64955006A66C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CB65CCA1DD64955006A66C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CB65CCD1DD64955006A66C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CB65CCF1DD64955006A66C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB65CD51DD64962006A66C7 /* NAS-Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NAS-Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		4CB65CDA1DD6498C006A66C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/LocationPicker/Images.xcassets"; sourceTree = "<absolute>"; };
+		4CB65CDB1DD6498C006A66C7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/LocationPicker/Info.plist"; sourceTree = "<absolute>"; };
+		4CB65CDC1DD6498C006A66C7 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/LocationPicker/Location.swift"; sourceTree = "<absolute>"; };
+		4CB65CDD1DD6498C006A66C7 /* LocationPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationPicker.h; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/LocationPicker/LocationPicker.h"; sourceTree = "<absolute>"; };
+		4CB65CDE1DD6498C006A66C7 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationPickerViewController.swift; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/LocationPicker/LocationPickerViewController.swift"; sourceTree = "<absolute>"; };
+		4CB65CDF1DD6498C006A66C7 /* LocationSearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSearchResultsViewController.swift; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/LocationPicker/LocationSearchResultsViewController.swift"; sourceTree = "<absolute>"; };
+		4CB65CE01DD6498C006A66C7 /* SearchHistoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchHistoryManager.swift; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/LocationPicker/SearchHistoryManager.swift"; sourceTree = "<absolute>"; };
+		4CB65CE91DD649CE006A66C7 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		4CB65CEA1DD649CE006A66C7 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		4CB65CEB1DD649CE006A66C7 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		4CB65CEC1DD649CE006A66C7 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		4CB65CED1DD649CE006A66C7 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		4CB65CEE1DD649CE006A66C7 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		4CB65CEF1DD649CE006A66C7 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		4CB65CF01DD649CE006A66C7 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		4CB65CF11DD649CE006A66C7 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		4CB65CF21DD649CE006A66C7 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		4CB65CF31DD649CE006A66C7 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		4CB65CF41DD649CE006A66C7 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		4CB65CF61DD649CE006A66C7 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		4CB65CF71DD649CE006A66C7 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		4CB65CF81DD649CE006A66C7 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		4CB65CF91DD649CE006A66C7 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		4CB65CFA1DD649CE006A66C7 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		4CB65CFB1DD649CE006A66C7 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		4CB65CFD1DD649CE006A66C7 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		4CB65CFE1DD649CE006A66C7 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		4CB65D001DD649CE006A66C7 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		4CB65D011DD649CE006A66C7 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		4CB65D021DD649CE006A66C7 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		4CB65D031DD649CE006A66C7 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		4CB65D041DD649CE006A66C7 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		4CB65D051DD649CE006A66C7 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		4CB65D061DD649CE006A66C7 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		4CB65D071DD649CE006A66C7 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		4CB65D081DD649CE006A66C7 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		4CB65D091DD649CE006A66C7 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		4CB65D0B1DD649CE006A66C7 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		4CB65D1B1DD64A07006A66C7 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/TextEffects/HoshiTextField.swift"; sourceTree = "<absolute>"; };
+		4CB65D1C1DD64A07006A66C7 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextFieldEffects.h; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/TextEffects/TextFieldEffects.h"; sourceTree = "<absolute>"; };
+		4CB65D1D1DD64A07006A66C7 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/TextEffects/TextFieldsEffects.swift"; sourceTree = "<absolute>"; };
+		4CB65D201DD6597B006A66C7 /* DPBasicLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPBasicLoading.swift; sourceTree = "<group>"; };
+		4CB65D211DD6597B006A66C7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/ProgressIndicator/MBProgressHUD.h"; sourceTree = "<absolute>"; };
+		4CB65D221DD6597B006A66C7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/ProgressIndicator/MBProgressHUD.m"; sourceTree = "<absolute>"; };
+		5CE88C0C646CECF7D44EEB0A /* Pods-NAS-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAS-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-NAS-Test/Pods-NAS-Test.release.xcconfig"; sourceTree = "<group>"; };
+		7028DBCD8079A7A1C8436851 /* Pods_NAS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		972CFB68052C082FBB33F1E8 /* Pods-NAS-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAS-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NAS-Test/Pods-NAS-Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB65CBD1DD64954006A66C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70E94EA79B3ACBCB3791B3F /* Pods_NAS_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39B17930B4CFA6DAF35400D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				972CFB68052C082FBB33F1E8 /* Pods-NAS-Test.debug.xcconfig */,
+				5CE88C0C646CECF7D44EEB0A /* Pods-NAS-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C00A6C41DD83A4A009BD1A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4CB65CB71DD64954006A66C7 = {
+			isa = PBXGroup;
+			children = (
+				4C78293B1DD860A900B45AD3 /* Call.png */,
+				4C00A6C41DD83A4A009BD1A0 /* Model */,
+				4CC5B3C51DD9956600DACEBF /* View */,
+				4CC5B3C61DD9956D00DACEBF /* Controller */,
+				4CC5B3C71DD9959000DACEBF /* Resources */,
+				4CB65CC21DD64955006A66C7 /* NAS-Test */,
+				4CB65CC11DD64955006A66C7 /* Products */,
+				4CB65CD51DD64962006A66C7 /* NAS-Test-Bridging-Header.h */,
+				39B17930B4CFA6DAF35400D6 /* Pods */,
+				8A9671EF2C0CED37E8EADB1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB65CC11DD64955006A66C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65CC01DD64955006A66C7 /* NAS-Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB65CC21DD64955006A66C7 /* NAS-Test */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65CC31DD64955006A66C7 /* AppDelegate.swift */,
+				4CB65CC51DD64955006A66C7 /* ViewController.swift */,
+				4CB65CC71DD64955006A66C7 /* Main.storyboard */,
+				4CB65CCA1DD64955006A66C7 /* Assets.xcassets */,
+				4CB65CCC1DD64955006A66C7 /* LaunchScreen.storyboard */,
+				4CB65CCF1DD64955006A66C7 /* Info.plist */,
+			);
+			path = "NAS-Test";
+			sourceTree = "<group>";
+		};
+		4CB65CD91DD6498C006A66C7 /* LocationPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65CDA1DD6498C006A66C7 /* Images.xcassets */,
+				4CB65CDB1DD6498C006A66C7 /* Info.plist */,
+				4CB65CDC1DD6498C006A66C7 /* Location.swift */,
+				4CB65CDD1DD6498C006A66C7 /* LocationPicker.h */,
+				4CB65CDE1DD6498C006A66C7 /* LocationPickerViewController.swift */,
+				4CB65CDF1DD6498C006A66C7 /* LocationSearchResultsViewController.swift */,
+				4CB65CE01DD6498C006A66C7 /* SearchHistoryManager.swift */,
+			);
+			path = LocationPicker;
+			sourceTree = "<group>";
+		};
+		4CB65CE71DD649CE006A66C7 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65CE81DD649CE006A66C7 /* Categories */,
+				4CB65CF51DD649CE006A66C7 /* Constants */,
+				4CB65CF81DD649CE006A66C7 /* IQKeyboardManager.h */,
+				4CB65CF91DD649CE006A66C7 /* IQKeyboardManager.m */,
+				4CB65CFA1DD649CE006A66C7 /* IQKeyboardReturnKeyHandler.h */,
+				4CB65CFB1DD649CE006A66C7 /* IQKeyboardReturnKeyHandler.m */,
+				4CB65CFC1DD649CE006A66C7 /* IQTextView */,
+				4CB65CFF1DD649CE006A66C7 /* IQToolbar */,
+				4CB65D0A1DD649CE006A66C7 /* Resources */,
+			);
+			name = IQKeyboardManager;
+			path = "/Users/abdul/Documents/Xcode Swift Programming/NAS-Test/Resources/IQKeyboardManager";
+			sourceTree = "<absolute>";
+		};
+		4CB65CE81DD649CE006A66C7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65CE91DD649CE006A66C7 /* IQNSArray+Sort.h */,
+				4CB65CEA1DD649CE006A66C7 /* IQNSArray+Sort.m */,
+				4CB65CEB1DD649CE006A66C7 /* IQUIScrollView+Additions.h */,
+				4CB65CEC1DD649CE006A66C7 /* IQUIScrollView+Additions.m */,
+				4CB65CED1DD649CE006A66C7 /* IQUITextFieldView+Additions.h */,
+				4CB65CEE1DD649CE006A66C7 /* IQUITextFieldView+Additions.m */,
+				4CB65CEF1DD649CE006A66C7 /* IQUIView+Hierarchy.h */,
+				4CB65CF01DD649CE006A66C7 /* IQUIView+Hierarchy.m */,
+				4CB65CF11DD649CE006A66C7 /* IQUIViewController+Additions.h */,
+				4CB65CF21DD649CE006A66C7 /* IQUIViewController+Additions.m */,
+				4CB65CF31DD649CE006A66C7 /* IQUIWindow+Hierarchy.h */,
+				4CB65CF41DD649CE006A66C7 /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4CB65CF51DD649CE006A66C7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65CF61DD649CE006A66C7 /* IQKeyboardManagerConstants.h */,
+				4CB65CF71DD649CE006A66C7 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4CB65CFC1DD649CE006A66C7 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65CFD1DD649CE006A66C7 /* IQTextView.h */,
+				4CB65CFE1DD649CE006A66C7 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		4CB65CFF1DD649CE006A66C7 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65D001DD649CE006A66C7 /* IQBarButtonItem.h */,
+				4CB65D011DD649CE006A66C7 /* IQBarButtonItem.m */,
+				4CB65D021DD649CE006A66C7 /* IQPreviousNextView.h */,
+				4CB65D031DD649CE006A66C7 /* IQPreviousNextView.m */,
+				4CB65D041DD649CE006A66C7 /* IQTitleBarButtonItem.h */,
+				4CB65D051DD649CE006A66C7 /* IQTitleBarButtonItem.m */,
+				4CB65D061DD649CE006A66C7 /* IQToolbar.h */,
+				4CB65D071DD649CE006A66C7 /* IQToolbar.m */,
+				4CB65D081DD649CE006A66C7 /* IQUIView+IQKeyboardToolbar.h */,
+				4CB65D091DD649CE006A66C7 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		4CB65D0A1DD649CE006A66C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65D0B1DD649CE006A66C7 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4CC5B3C41DD9954700DACEBF /* ProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65D201DD6597B006A66C7 /* DPBasicLoading.swift */,
+				4C7829391DD8441700B45AD3 /* NetData.swift */,
+				4CB65D211DD6597B006A66C7 /* MBProgressHUD.h */,
+				4CB65D221DD6597B006A66C7 /* MBProgressHUD.m */,
+			);
+			name = ProgressIndicator;
+			sourceTree = "<group>";
+		};
+		4CC5B3C51DD9956600DACEBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4CC5B3C61DD9956D00DACEBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4CC5B3C71DD9959000DACEBF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65CD91DD6498C006A66C7 /* LocationPicker */,
+				4CC5B3C81DD995C600DACEBF /* TextEffect */,
+				4CB65CE71DD649CE006A66C7 /* IQKeyboardManager */,
+				4CC5B3C41DD9954700DACEBF /* ProgressIndicator */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4CC5B3C81DD995C600DACEBF /* TextEffect */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65D1B1DD64A07006A66C7 /* HoshiTextField.swift */,
+				4CB65D1C1DD64A07006A66C7 /* TextFieldEffects.h */,
+				4CB65D1D1DD64A07006A66C7 /* TextFieldsEffects.swift */,
+			);
+			name = TextEffect;
+			sourceTree = "<group>";
+		};
+		8A9671EF2C0CED37E8EADB1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7028DBCD8079A7A1C8436851 /* Pods_NAS_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB65CBF1DD64954006A66C7 /* NAS-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB65CD21DD64955006A66C7 /* Build configuration list for PBXNativeTarget "NAS-Test" */;
+			buildPhases = (
+				919E4967C3B42518A91B9ADD /* [CP] Check Pods Manifest.lock */,
+				4CB65CBC1DD64954006A66C7 /* Sources */,
+				4CB65CBD1DD64954006A66C7 /* Frameworks */,
+				4CB65CBE1DD64954006A66C7 /* Resources */,
+				3AB01C7629A8C55BFF02A0D2 /* [CP] Embed Pods Frameworks */,
+				3B352120584739E82BC3B02F /* [CP] Copy Pods Resources */,
+				4C00A6C31DD83A47009BD1A0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NAS-Test";
+			productName = "NAS-Test";
+			productReference = 4CB65CC01DD64955006A66C7 /* NAS-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB65CB81DD64954006A66C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "NAS Media";
+				TargetAttributes = {
+					4CB65CBF1DD64954006A66C7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PN9B3T4895;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4CB65CBB1DD64954006A66C7 /* Build configuration list for PBXProject "NAS-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 4CB65CB71DD64954006A66C7;
+			productRefGroup = 4CB65CC11DD64955006A66C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB65CBF1DD64954006A66C7 /* NAS-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB65CBE1DD64954006A66C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB65CCE1DD64955006A66C7 /* LaunchScreen.storyboard in Resources */,
+				4CB65CE11DD6498C006A66C7 /* Images.xcassets in Resources */,
+				4CB65D1A1DD649CE006A66C7 /* IQKeyboardManager.bundle in Resources */,
+				4CB65CCB1DD64955006A66C7 /* Assets.xcassets in Resources */,
+				4CB65CE21DD6498C006A66C7 /* Info.plist in Resources */,
+				4CB65CC91DD64955006A66C7 /* Main.storyboard in Resources */,
+				4C78293C1DD860A900B45AD3 /* Call.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AB01C7629A8C55BFF02A0D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAS-Test/Pods-NAS-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B352120584739E82BC3B02F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAS-Test/Pods-NAS-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919E4967C3B42518A91B9ADD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB65CBC1DD64954006A66C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB65CE51DD6498C006A66C7 /* LocationSearchResultsViewController.swift in Sources */,
+				4CB65D131DD649CE006A66C7 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				4C78293A1DD8441700B45AD3 /* NetData.swift in Sources */,
+				4CB65D231DD6597B006A66C7 /* DPBasicLoading.swift in Sources */,
+				4CB65D0D1DD649CE006A66C7 /* IQUIScrollView+Additions.m in Sources */,
+				4CB65D101DD649CE006A66C7 /* IQUIViewController+Additions.m in Sources */,
+				4CB65D111DD649CE006A66C7 /* IQUIWindow+Hierarchy.m in Sources */,
+				4CB65CC61DD64955006A66C7 /* ViewController.swift in Sources */,
+				4CB65D241DD6597B006A66C7 /* MBProgressHUD.m in Sources */,
+				4CB65D151DD649CE006A66C7 /* IQBarButtonItem.m in Sources */,
+				4CB65CE31DD6498C006A66C7 /* Location.swift in Sources */,
+				4CB65D0F1DD649CE006A66C7 /* IQUIView+Hierarchy.m in Sources */,
+				4CB65D0C1DD649CE006A66C7 /* IQNSArray+Sort.m in Sources */,
+				4CB65CC41DD64955006A66C7 /* AppDelegate.swift in Sources */,
+				4CB65D191DD649CE006A66C7 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				4CB65D0E1DD649CE006A66C7 /* IQUITextFieldView+Additions.m in Sources */,
+				4CB65D121DD649CE006A66C7 /* IQKeyboardManager.m in Sources */,
+				4CB65D181DD649CE006A66C7 /* IQToolbar.m in Sources */,
+				4CB65D1E1DD64A07006A66C7 /* HoshiTextField.swift in Sources */,
+				4CB65D1F1DD64A07006A66C7 /* TextFieldsEffects.swift in Sources */,
+				4CB65D171DD649CE006A66C7 /* IQTitleBarButtonItem.m in Sources */,
+				4CB65CE61DD6498C006A66C7 /* SearchHistoryManager.swift in Sources */,
+				4CB65D141DD649CE006A66C7 /* IQTextView.m in Sources */,
+				4CB65CE41DD6498C006A66C7 /* LocationPickerViewController.swift in Sources */,
+				4CB65D161DD649CE006A66C7 /* IQPreviousNextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CB65CC71DD64955006A66C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB65CC81DD64955006A66C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB65CCC1DD64955006A66C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB65CCD1DD64955006A66C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB65CD01DD64955006A66C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CB65CD11DD64955006A66C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB65CD31DD64955006A66C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972CFB68052C082FBB33F1E8 /* Pods-NAS-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PN9B3T4895;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "NAS-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.SWD-SA.NAS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NAS-Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4CB65CD41DD64955006A66C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE88C0C646CECF7D44EEB0A /* Pods-NAS-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PN9B3T4895;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "NAS-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.SWD-SA.NAS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NAS-Test-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB65CBB1DD64954006A66C7 /* Build configuration list for PBXProject "NAS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB65CD01DD64955006A66C7 /* Debug */,
+				4CB65CD11DD64955006A66C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB65CD21DD64955006A66C7 /* Build configuration list for PBXNativeTarget "NAS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB65CD31DD64955006A66C7 /* Debug */,
+				4CB65CD41DD64955006A66C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB65CB81DD64954006A66C7 /* Project object */;
+}
